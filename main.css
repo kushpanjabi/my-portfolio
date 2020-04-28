@@ -14,6 +14,15 @@ main {
     margin: 5%;
 }
 
+.animoji {
+    width: 25%;
+}
+
+.intro-text {
+    display: inline-block;
+    margin: 2%;
+}
+
 .hobby-icons{
     border: none;
     width: 20%;
@@ -59,6 +68,10 @@ main {
         margin-left: 2%;
         margin-right: 2%;
       }
+
+    .animoji {
+        width: 10%;
+    }
       
 
 }
