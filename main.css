@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    margin: 8%;
+}
+
+body {
+    margin: 2%;
+}
+
+main {
+    margin: 5%;
+}
+
+.hobby-icons{
+    border: none;
+    width: 20%;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    border-radius: 0%;
+  }
+
+.contact-icons{
+    border: none;
+    width: 15%;
+    margin-top: 10%;
+    margin-left: 13.5%;
+  }
+
+.center {
+    text-align: center;
+}
+
+
+/* larger screens */
+
+@media screen and (min-width: 768px) {
+
+    body {
+        margin: 8%;
+    }
+
+    main {
+        margin: 2%;
+        margin-top: -3%;
+    }
+
+    .hobby-icons{
+        border: none;
+        width: 15%;
+      }
+
+    .contact-icons{
+        border: none;
+        width: 6%;
+        margin-top: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
+      }
+      
+
+}
